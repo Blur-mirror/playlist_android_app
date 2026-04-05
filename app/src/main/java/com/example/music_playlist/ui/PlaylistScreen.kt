@@ -177,7 +177,7 @@ fun SongCard(
                 )
             }
 
-            // ❤️ Favourite button
+            // Favourite button
             IconButton(onClick = { onToggleFavorite() }) {
                 Icon(
                     imageVector = if (song.isFavorite)
@@ -189,7 +189,7 @@ fun SongCard(
                 )
             }
 
-// 🗑 Delete button
+            //Delete button
             IconButton(onClick = onDelete) {
                 Icon(
                     imageVector = Icons.Default.Delete,
@@ -198,7 +198,7 @@ fun SongCard(
                 )
             }
 
-// 📄 Details button
+            //Details button
             Button(
                 onClick = onDetails,
                 colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFBB86FC))
